@@ -1,5 +1,7 @@
 import view
 import process
+import log
+
 
 def button_click():
     rezhim = view.inp_mod()
@@ -15,7 +17,7 @@ def button_click():
         result = view.inp_export()
         process.export(result)
             
-        
+log.log_cash(str(view.mod))        
 
     
 

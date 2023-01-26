@@ -1,7 +1,7 @@
 def inp_mod():
     mod = input('Введите режим работы (импорт или экспорт): ')
     return mod
-
+mod = str(inp_mod ())
 
 def inp_import():
     surname = input('Введите фамилию для поиска: ')
